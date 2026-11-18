@@ -1,0 +1,39 @@
+*{
+    /*El asterisco es el selector universal*/
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*Las etiquetas se invocan por su nombre*/
+p{
+    color: #2102ab;
+}
+
+div{
+    border: 8px solid #0f859d;
+}
+
+/*las clases afectan a los elementos que contenga la misma clase*/
+.clase-caja{
+    border: 8px solid #e8ac09;
+    background-color: #07bbdf;
+}
+
+/* no se que es esto pero ahora investogo */
+.clase-parrafo{
+    color: #ffffff;
+}
+
+/* los IDs afecta a elementos específicos por su ID */
+#fotografia{
+    border: 8px solid #e809bf;
+    /* esto es para mantener el ancho de la pagina o 
+    Siza: que es para el tamaño de la imagen o pixel */
+    width: 300px;
+}
+
+#camara{
+    border: 8px solid #e809bf;
+    width: 300px;
+}

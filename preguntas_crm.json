@@ -1,0 +1,402 @@
+[
+  {
+    "id": "d01",
+    "category": "Conocimientos Fundamentales",
+    "difficulty": "Básico",
+    "context": "Una startup B2B de software en Medellín está armando su primer equipo comercial y necesita alinear conceptos clave.",
+    "prompt": "¿Cuál es la diferencia fundamental entre un 'Lead' y una 'Oportunidad' en un CRM?",
+    "options": [
+      "Un Lead es cualquier contacto registrado; la Oportunidad es un lead que ya demostró interés real, necesidad, presupuesto y autoridad de compra.",
+      "Son sinónimos exactos usados indistintamente por Salesforce y HubSpot.",
+      "La Oportunidad es el contacto inicial frío y el Lead es el cliente que ya firmó contrato.",
+      "Un Lead solo aplica a canales digitales y la Oportunidad únicamente a llamadas telefónicas."
+    ],
+    "correct": 0,
+    "rationale": "Un Lead es un contacto capturado; la Oportunidad se crea cuando se califica que existe un negocio viable con necesidad activa y presupuesto.",
+    "active": true
+  },
+  {
+    "id": "d02",
+    "category": "Conocimientos Fundamentales",
+    "difficulty": "Básico",
+    "context": "Una tienda de muebles en Cali registra cada cotización en hojas separadas y el gerente no sabe cuánto dinero hay \"en juego\" este mes.",
+    "prompt": "¿Qué representa el pipeline (embudo) de ventas dentro de un CRM?",
+    "options": [
+      "La visualización de las oportunidades organizadas por etapa, con su valor y probabilidad de cierre.",
+      "Una lista de los empleados y sus horarios de trabajo.",
+      "El historial contable de las facturas ya pagadas.",
+      "Un archivo de respaldo de la base de datos."
+    ],
+    "correct": 0,
+    "rationale": "El pipeline muestra las oportunidades abiertas por etapa, permitiendo estimar ingresos futuros y detectar cuellos de botella.",
+    "active": true
+  },
+  {
+    "id": "d03",
+    "category": "Conocimientos Fundamentales",
+    "difficulty": "Intermedio",
+    "context": "Marketing de una universidad privada entrega 300 contactos de un webinar a Ventas, pero los asesores se quejan: la mayoría solo descargó el material.",
+    "prompt": "¿Cuál es la diferencia entre un MQL y un SQL?",
+    "options": [
+      "MQL cumple criterios de interés definidos por Marketing; SQL es el que Ventas validó y confirma que merece gestión comercial directa.",
+      "MQL es un cliente que ya pagó y SQL es uno que canceló.",
+      "Son lo mismo; solo cambia el nombre según el país.",
+      "MQL aplica solo a llamadas y SQL solo a correo electrónico."
+    ],
+    "correct": 0,
+    "rationale": "MQL (Marketing Qualified Lead) y SQL (Sales Qualified Lead) marcan el traspaso entre áreas: el SQL es aceptado por Ventas tras validar interés y encaje.",
+    "active": true
+  },
+  {
+    "id": "d04",
+    "category": "Conocimientos Fundamentales",
+    "difficulty": "Intermedio",
+    "context": "Una aseguradora tiene cotizaciones en un sistema, siniestros en otro y cobranza en una hoja de cálculo. Un cliente llama y el asesor no sabe que tiene una deuda vencida.",
+    "prompt": "¿Qué principio del CRM resuelve este problema?",
+    "options": [
+      "La vista única del cliente (360°): integrar en un solo registro sus interacciones, productos y estado de cuenta.",
+      "Contratar más asesores para atender las llamadas.",
+      "Pedirle al cliente que lleve sus propios documentos en cada contacto.",
+      "Que cada área guarde su información de forma independiente por seguridad."
+    ],
+    "correct": 0,
+    "rationale": "El valor central del CRM es consolidar la información del cliente para ofrecer una atención coherente en todos los canales.",
+    "active": true
+  },
+  {
+    "id": "d05",
+    "category": "Conocimientos Fundamentales",
+    "difficulty": "Avanzado",
+    "context": "Una empresa de suscripciones paga en promedio $400.000 COP por conseguir un cliente (CAC) y cada cliente deja $900.000 COP de margen durante toda su vida (LTV).",
+    "prompt": "Con la regla de referencia LTV:CAC ≥ 3:1, ¿cómo se interpreta esta relación y qué conviene hacer?",
+    "options": [
+      "La relación es ~2,25:1, inferior a la referencia; conviene reducir el CAC o aumentar el LTV (retención, ventas cruzadas) antes de escalar la inversión.",
+      "La relación es 3:1 exacta; se puede duplicar el presupuesto sin análisis.",
+      "La relación es 0,44:1 y significa que el negocio es muy rentable.",
+      "El LTV y el CAC no se pueden comparar porque miden cosas distintas."
+    ],
+    "correct": 0,
+    "rationale": "900.000 / 400.000 = 2,25. Por debajo de 3:1 la adquisición es poco eficiente: se debe optimizar costo de captación o valor del cliente.",
+    "active": true
+  },
+  {
+    "id": "d06",
+    "category": "Gestión Operativa",
+    "difficulty": "Básico",
+    "context": "La base de una distribuidora de alimentos en Bogotá tiene miles de correos rebotados, teléfonos obsoletos y contactos que ya no trabajan en las empresas cliente.",
+    "prompt": "¿Cuál es la estrategia más eficiente para sanear y mantener actualizada la base de datos?",
+    "options": [
+      "Llamar uno por uno a los 10.000 registros durante los fines de semana.",
+      "Implementar campañas automatizadas de re-engagement, validadores de correo en formularios y formularios de actualización de datos para clientes.",
+      "Crear una base nueva y eliminar la anterior sin respaldo.",
+      "No hacer nada; los datos obsoletos no afectan el CRM."
+    ],
+    "correct": 1,
+    "rationale": "La higiene de datos combina validación en el punto de captura con automatizaciones periódicas que verifican la vigencia de los contactos.",
+    "active": true
+  },
+  {
+    "id": "d07",
+    "category": "Gestión Operativa",
+    "difficulty": "Intermedio",
+    "context": "'Distribuciones Andina S.A.' tiene más de 12.000 registros con cuentas duplicadas, correos mal escritos y varios teléfonos para un mismo cliente corporativo.",
+    "prompt": "Como Administrador del CRM, ¿cuál es el procedimiento inicial más adecuado para depurar y unificar esta información?",
+    "options": [
+      "Eliminar todos los registros creados antes del último año sin importar su historial.",
+      "Ejecutar reglas de deduplicación (NIT / correo) y fusionar (Merge) los registros preservando el historial de actividad.",
+      "Pedir a cada asesor que borre manualmente en Excel los clientes que reconozca.",
+      "Ignorar los duplicados porque el buscador del CRM los filtra solo."
+    ],
+    "correct": 1,
+    "rationale": "Las reglas de deduplicación con coincidencia exacta y difusa, más la fusión de registros, mantienen el historial y mejoran la calidad de datos.",
+    "active": true
+  },
+  {
+    "id": "d08",
+    "category": "Gestión Operativa",
+    "difficulty": "Intermedio",
+    "context": "Una campaña generó 500 leads en una semana, pero el reporte muestra que el 60% lleva más de 72 horas sin ningún contacto.",
+    "prompt": "Según los estándares de velocidad de respuesta en ventas, ¿qué acción inmediata se debe implementar?",
+    "options": [
+      "Esperar a que los clientes vuelvan a escribir.",
+      "Configurar asignación automática (Round-Robin) y una secuencia de correo/llamada prioritaria en minutos para los leads calientes.",
+      "Asignar los 500 leads al gerente para que los llame en su tiempo libre.",
+      "Eliminar la campaña por generar demasiados contactos."
+    ],
+    "correct": 1,
+    "rationale": "La probabilidad de calificar un lead cae drásticamente tras la primera hora; la asignación automática y las cadencias de contacto son la respuesta.",
+    "active": true
+  },
+  {
+    "id": "d09",
+    "category": "Gestión Operativa",
+    "difficulty": "Avanzado",
+    "context": "Una constructora quiere migrar 8.000 clientes y proyectos desde varios archivos de Excel a un CRM nuevo el próximo lunes.",
+    "prompt": "¿Cuál es el plan de migración más seguro?",
+    "options": [
+      "Respaldar los archivos, depurar y estandarizar campos, mapear columnas al modelo del CRM, importar una muestra piloto, validarla y luego migrar el resto.",
+      "Importar todo tal cual el lunes y corregir errores a medida que aparezcan.",
+      "Migrar solo los nombres y pedir a los asesores que reescriban lo demás.",
+      "Borrar los Excel originales apenas se importen para evitar versiones paralelas."
+    ],
+    "correct": 0,
+    "rationale": "Una migración exitosa exige respaldo, limpieza, mapeo de campos y una prueba piloto antes de la carga masiva.",
+    "active": true
+  },
+  {
+    "id": "d10",
+    "category": "Gestión Operativa",
+    "difficulty": "Intermedio",
+    "context": "Un asesor senior renuncia y deja 120 cuentas activas y 35 oportunidades abiertas en el CRM.",
+    "prompt": "¿Qué debe hacerse con esos registros?",
+    "options": [
+      "Reasignar cuentas y oportunidades a otros asesores (transferencia de propiedad), conservando el historial, y coordinar la comunicación al cliente.",
+      "Eliminar su usuario y todos los registros que le pertenecían.",
+      "Dejar los registros a su nombre hasta que los clientes escriban.",
+      "Exportar los contactos a su correo personal para que los entregue."
+    ],
+    "correct": 0,
+    "rationale": "La transferencia de propiedad con historial garantiza continuidad comercial y evita pérdida de información y de clientes.",
+    "active": true
+  },
+  {
+    "id": "d11",
+    "category": "Análisis de Indicadores",
+    "difficulty": "Intermedio",
+    "context": "El dashboard muestra 1.000 prospectos mensuales al embudo, pero la conversión final a clientes cerrados es inferior al 1%.",
+    "prompt": "Para diagnosticar la causa raíz en el embudo, ¿qué análisis se debe revisar primero?",
+    "options": [
+      "Las tasas de conversión etapa por etapa (drop-off) para ubicar en qué fase se caen los prospectos.",
+      "Aumentar el presupuesto publicitario para duplicar los leads de entrada.",
+      "Cambiar el color de la interfaz del CRM para motivar a los asesores.",
+      "Sancionar al equipo de soporte técnico por la baja venta."
+    ],
+    "correct": 0,
+    "rationale": "El análisis de cuellos de botella por etapa aísla si el problema está en la calificación de marketing o en el cierre comercial.",
+    "active": true
+  },
+  {
+    "id": "d12",
+    "category": "Análisis de Indicadores",
+    "difficulty": "Intermedio",
+    "context": "El equipo comercial lleva tres meses sin cumplir la cuota, aunque el número de llamadas registradas en el CRM es alto.",
+    "prompt": "Si la actividad es alta pero los resultados son bajos, ¿qué indicador cualitativo se debe auditar?",
+    "options": [
+      "La cantidad de café consumida en la oficina.",
+      "La efectividad de las actividades: ratio de llamada a reunión agendada y calidad de las oportunidades del pipeline.",
+      "La velocidad de internet de la oficina.",
+      "El número de correos spam enviados."
+    ],
+    "correct": 1,
+    "rationale": "La actividad pura puede ser una métrica de vanidad; hay que medir conversión por etapa y calidad de las oportunidades.",
+    "active": true
+  },
+  {
+    "id": "d13",
+    "category": "Análisis de Indicadores",
+    "difficulty": "Básico",
+    "context": "En el último trimestre un equipo gestionó 80 oportunidades y cerró 12 como ganadas.",
+    "prompt": "¿Cuál es la tasa de éxito (win rate) del equipo?",
+    "options": [
+      "15%",
+      "12%",
+      "6,7%",
+      "150%"
+    ],
+    "correct": 0,
+    "rationale": "Win rate = ganadas / total de oportunidades = 12 / 80 = 15%.",
+    "active": true
+  },
+  {
+    "id": "d14",
+    "category": "Análisis de Indicadores",
+    "difficulty": "Avanzado",
+    "context": "Un gerente revisa tres negocios abiertos: A por $100 millones con 50% de probabilidad, B por $60 millones con 20% y C por $40 millones con 80%.",
+    "prompt": "¿Cuál es el pronóstico ponderado (weighted forecast) de este pipeline?",
+    "options": [
+      "$94 millones",
+      "$200 millones",
+      "$47 millones",
+      "$140 millones"
+    ],
+    "correct": 0,
+    "rationale": "100×0,5 + 60×0,2 + 40×0,8 = 50 + 12 + 32 = $94 millones.",
+    "active": true
+  },
+  {
+    "id": "d15",
+    "category": "Análisis de Indicadores",
+    "difficulty": "Intermedio",
+    "context": "Un proveedor de internet empezó el mes con 400 clientes y 28 de ellos cancelaron el servicio (sin contar nuevos clientes).",
+    "prompt": "¿Cuál es la tasa de cancelación (churn) mensual?",
+    "options": [
+      "7%",
+      "14,3%",
+      "28%",
+      "0,7%"
+    ],
+    "correct": 0,
+    "rationale": "Churn = clientes perdidos / clientes iniciales = 28 / 400 = 7%.",
+    "active": true
+  },
+  {
+    "id": "d16",
+    "category": "Resolución de Casos",
+    "difficulty": "Intermedio",
+    "context": "Un cliente corporativo clave presenta reclamaciones por entregas tardías, pero sus interacciones previas no están en el CRM porque soporte usaba notas en papel.",
+    "prompt": "¿Cómo debe gestionarse el caso para garantizar trazabilidad y evitar perder al cliente?",
+    "options": [
+      "Cerrar los tickets antiguos como resueltos y pedirle que empiece de nuevo.",
+      "Crear un caso centralizado (ticket), unificar el historial de comunicaciones pasadas y presentes y asignar un SLA prioritario de seguimiento.",
+      "Borrar el perfil del cliente para que no afecte los indicadores de satisfacción.",
+      "Llamar al cliente para discutir y pedirle que retire sus quejas."
+    ],
+    "correct": 1,
+    "rationale": "La gestión omnicanal exige un registro único de incidencias asociado a la cuenta, con acuerdos de nivel de servicio (SLA).",
+    "active": true
+  },
+  {
+    "id": "d17",
+    "category": "Resolución de Casos",
+    "difficulty": "Intermedio",
+    "context": "Una empresa de servicios detecta un aumento del 15% en la cancelación (churn) de clientes recurrentes durante el último trimestre.",
+    "prompt": "Para mitigar el abandono con datos del CRM, ¿qué acción estratégica se ejecuta primero?",
+    "options": [
+      "Ofrecer un 90% de descuento a todos los clientes.",
+      "Segmentar clientes por uso, frecuencia de interacción y alertas tempranas de inactividad para diseñar campañas de retención proactivas.",
+      "Esperar a que llamen a cancelar y rogarles que se queden.",
+      "Culpar al área de sistemas por fallas de la plataforma."
+    ],
+    "correct": 1,
+    "rationale": "Identificar patrones de inactividad permite actuar antes de que el cliente pida la baja.",
+    "active": true
+  },
+  {
+    "id": "d18",
+    "category": "Resolución de Casos",
+    "difficulty": "Intermedio",
+    "context": "Los grandes clientes corporativos son atendidos por asesores junior recién contratados, mientras prospectos pequeños ocupan a los ejecutivos senior.",
+    "prompt": "¿Qué criterio de segmentación y enrutamiento debe configurarse para corregir la ineficiencia?",
+    "options": [
+      "Asignar clientes al azar con una rifa mensual.",
+      "Reglas de enrutamiento basadas en valor potencial (lead scoring), tamaño de cuenta y región geográfica.",
+      "Dejar que cada asesor elija sin supervisión.",
+      "Eliminar la segmentación y tratar a todos igual."
+    ],
+    "correct": 1,
+    "rationale": "El enrutamiento inteligente alinea la experiencia del asesor con el valor potencial de la cuenta.",
+    "active": true
+  },
+  {
+    "id": "d19",
+    "category": "Resolución de Casos",
+    "difficulty": "Avanzado",
+    "context": "Una clienta escribe al correo de servicio exigiendo que eliminen todos sus datos personales de la base de la empresa y que no la contacten más.",
+    "prompt": "¿Cómo gestionar la solicitud en el CRM considerando la normativa de protección de datos (p. ej., Ley 1581 de 2012 en Colombia)?",
+    "options": [
+      "Registrar la solicitud como caso, verificar la identidad de la titular, suprimir o anonimizar sus datos y excluirla de campañas dentro de los plazos legales, conservando solo lo que la ley obligue.",
+      "Ignorarla porque los datos son propiedad de la empresa.",
+      "Eliminar solo su correo y seguir llamándola por teléfono.",
+      "Responder verbalmente sin dejar registro para no generar evidencia."
+    ],
+    "correct": 0,
+    "rationale": "Los derechos del titular (supresión, revocatoria) deben tramitarse con trazabilidad, verificación de identidad y dentro de los plazos legales.",
+    "active": true
+  },
+  {
+    "id": "d20",
+    "category": "Resolución de Casos",
+    "difficulty": "Intermedio",
+    "context": "Dos asesores de la misma empresa contactaron al mismo cliente corporativo con ofertas distintas y el cliente se molestó.",
+    "prompt": "¿Qué debe configurarse en el CRM para evitar este conflicto?",
+    "options": [
+      "Un único propietario por cuenta, reglas de asignación y de conflicto, y visibilidad de la actividad de la cuenta para todo el equipo.",
+      "Prohibir a los asesores llamar a clientes.",
+      "Que cada asesor lleve su propia lista privada de clientes.",
+      "Pedirle al cliente que decida con quién habla cada vez."
+    ],
+    "correct": 0,
+    "rationale": "La propiedad única de cuenta y la visibilidad de actividad evitan duplicidad de esfuerzos y mensajes contradictorios.",
+    "active": true
+  },
+  {
+    "id": "d21",
+    "category": "Pensamiento Estratégico",
+    "difficulty": "Intermedio",
+    "context": "El Director Comercial necesita supervisar al equipo, identificar oportunidades estancadas y automatizar tareas repetitivas de notificación.",
+    "prompt": "Desde una perspectiva estratégica, ¿cómo debe usarse el CRM para resolverlo?",
+    "options": [
+      "Tableros Kanban del pipeline con alertas automáticas por inactividad (p. ej., sin cambios en 14 días) y reportes ejecutivos programados.",
+      "Obligar a los asesores a enviar un Word mensual con sus notas.",
+      "Eliminar los reportes automáticos y revisar cada base en Excel.",
+      "Confiar en que el equipo trabaja solo, sin revisar métricas."
+    ],
+    "correct": 0,
+    "rationale": "Los dashboards y flujos de trabajo permiten supervisión por excepción sin microgestión ineficiente.",
+    "active": true
+  },
+  {
+    "id": "d22",
+    "category": "Pensamiento Estratégico",
+    "difficulty": "Avanzado",
+    "context": "Seis meses después de implementar el CRM, solo el 35% de los asesores actualiza sus oportunidades; dicen que \"es trabajo extra y sirve para vigilarlos\".",
+    "prompt": "¿Qué estrategia aborda mejor la causa de la baja adopción?",
+    "options": [
+      "Simplificar campos obligatorios, mostrar el beneficio personal (recordatorios, menos tareas manuales), capacitar y que la gerencia use el CRM como única fuente en las reuniones de pipeline.",
+      "Sancionar económicamente a quien no actualice, sin cambiar nada más.",
+      "Volver a Excel porque el CRM no funcionó.",
+      "Agregar 20 campos obligatorios para obtener más datos."
+    ],
+    "correct": 0,
+    "rationale": "La adopción mejora cuando el CRM aporta valor al usuario, es simple y el liderazgo lo exige como fuente única de verdad.",
+    "active": true
+  },
+  {
+    "id": "d23",
+    "category": "Pensamiento Estratégico",
+    "difficulty": "Avanzado",
+    "context": "Marketing celebra 2.000 leads por campaña, pero Ventas dice que son de mala calidad y los ignora; ambas áreas se culpan mutuamente.",
+    "prompt": "¿Qué solución propone el enfoque de alineación Marketing–Ventas?",
+    "options": [
+      "Definir juntos los criterios de MQL/SQL con lead scoring, acordar un SLA de seguimiento y crear un ciclo de retroalimentación con motivos de descarte en el CRM.",
+      "Reducir el presupuesto de marketing a la mitad.",
+      "Que Ventas genere sus propios leads sin usar el CRM.",
+      "Medir a Marketing solo por la cantidad de leads."
+    ],
+    "correct": 0,
+    "rationale": "Definiciones compartidas, SLA y retroalimentación cerrada convierten la disputa en un proceso medible de mejora.",
+    "active": true
+  },
+  {
+    "id": "d24",
+    "category": "Pensamiento Estratégico",
+    "difficulty": "Intermedio",
+    "context": "Un proveedor de software B2B nota que 80 clientes usan intensamente el plan básico y solo 5 han adquirido módulos adicionales.",
+    "prompt": "¿Cómo usar el CRM para generar ingresos adicionales con esos clientes?",
+    "options": [
+      "Segmentar por nivel de uso y potencial, crear una campaña dirigida de venta cruzada/ampliación y asignar un ejecutivo de cuenta para el seguimiento.",
+      "Enviar el mismo correo masivo a toda la base sin segmentar.",
+      "Subir el precio del plan básico sin avisar.",
+      "Esperar a que los clientes pidan los módulos."
+    ],
+    "correct": 0,
+    "rationale": "La segmentación por uso permite campañas de upsell/cross-sell relevantes y medibles.",
+    "active": true
+  },
+  {
+    "id": "d25",
+    "category": "Pensamiento Estratégico",
+    "difficulty": "Avanzado",
+    "context": "Un analista programa un correo masivo automático a toda la base, incluidos 3.000 contactos con rebotes y clientes que pidieron no recibir publicidad. El dominio de la empresa termina marcado como spam.",
+    "prompt": "¿Qué principio de gobierno de la automatización se omitió?",
+    "options": [
+      "Segmentar y validar la audiencia (excluir rebotes y bajas), respetar consentimientos, probar con una muestra y monitorear métricas de entrega antes de escalar.",
+      "Enviar más correos para recuperar la reputación.",
+      "Desactivar el CRM definitivamente.",
+      "Comprar una lista externa para reemplazar la base."
+    ],
+    "correct": 0,
+    "rationale": "Toda automatización masiva requiere calidad de audiencia, consentimiento, pruebas controladas y monitoreo de reputación.",
+    "active": true
+  }
+]

@@ -1,0 +1,13 @@
+// sintaxis de json es de esta manera, como si fuera un excel
+{
+    "Aprendices" : "ADSO 3536492",
+    "Nombres" : "Deivi Yoser",
+    "Aprellidos":"Montaño Rojas",
+    "correo electrónico": "yoserlamabla@gamil.com",
+    "celular" : "3188858543",
+    "estatura" : "1.92",
+    "talla zapatos" : "42 euro",
+    "talla de pantalo" : "38 ",
+    "talla de camisa" : "XL",
+    "peso": "90 kg"
+}
